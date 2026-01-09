@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+}
+
+.btn {
+  padding: 10px 30px;
+  background-color: rgb(11, 107, 185);
+  border: none;
+  border-radius: 20px;
+  color: white;
+}
+
+.btn:hover {
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
