@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  background: linear-gradient(
+    to right,
+    rgb(0, 0, 0),
+    rgb(22, 22, 21),
+    rgb(0, 0, 0)
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  color: rgb(182, 180, 180);
+}
+
+main {
+  background-color: rgb(14, 13, 13);
+  height: 260px;
+  padding: 40px;
+  filter: drop-shadow(0px 15px 20px rgba(196, 194, 190, 0.349));
+  border-top: 5px solid rgb(105, 105, 105);
+}
+
+h1 {
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+.container-1 > h2 {
+  font-size: 30px;
+}
+
+.container-1 > div > input {
+  height: 30px;
+}
+
+#res {
+  font-size: 20px;
+}
+
+.container-btns > button {
+  width: 120px;
+  height: 35px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+}
+
+.container-btns > button:hover {
+  background-color: rgb(26, 128, 245);
+  color: white;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#btn-reset {
+  background-color: rgb(35, 145, 25);
+  color: white;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}

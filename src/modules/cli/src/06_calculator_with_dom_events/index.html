@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eventos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Eventos</h1>
+
+    <main>
+      <section class="container-1">
+        <h2>Insira números abaixo</h2>
+        <br />
+
+        <div>
+          <input type="text" name="n1" id="txtn1" />
+          <input type="text" name="n2" id="txtn2" /> <br /><br />
+        </div>
+      </section>
+
+      <section class="container-btns">
+        <button id="btn-somar">Somar</button>
+        <button id="btn-sub">Subtrair</button>
+        <button id="btn-mult">Multiplicar</button>
+        <button id="btn-div">Dividir</button>
+        <button
+          id="btn-reset"
+          onclick="window.location.href = window.location.href"
+        >
+          Resetar
+        </button>
+      </section>
+
+      <br /><br />
+
+      <div id="res"></div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
